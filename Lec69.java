@@ -13,7 +13,7 @@ public class Lec69
         System.out.println(memberName);
 
         System.out.println();
-        WhiteHouseMembers allHouseMembers[] = memberName.values();
+        WhiteHouseMembers allHouseMembers[] = WhiteHouseMembers.values();
 
         for( WhiteHouseMembers m : allHouseMembers)
         {

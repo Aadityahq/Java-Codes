@@ -4,6 +4,11 @@
 class A
 {
 
+    public void showClass() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'showClass'");
+    }
+
 }
 
 public class Lec60 
