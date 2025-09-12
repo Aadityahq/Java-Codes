@@ -1,8 +1,6 @@
 //Taking input using System.in.read
 
 import java.io.IOException;
-import java.nio.channels.Pipe.SinkChannel;
-import java.text.NumberFormat.Style;
 
 public class Lec83SystemInRead {
 
