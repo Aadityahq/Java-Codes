@@ -1,0 +1,4 @@
+This is the example text file.
+I have to take input from this file.
+And after that this file will end.
+I'm adding a new line.
