@@ -28,7 +28,7 @@ class Car2 implements Comparable<Car2>
     @Override
     public int compareTo(Car2 that) 
     {
-        if(this.price > that.price)
+        if(this.price < that.price)
             return 1;
         else if(this.price == that.price)
             return 0;
@@ -94,14 +94,26 @@ public class Lec95_2 {
         }
 
         System.out.println();
-        System.out.println("-----------After Sorting---------");
+        System.out.println("-----------After Sorting using compare(parameters) method Of Comarator Interface---------");
         System.out.println();
 
-        Collections.sort(cars, com);
+        Collections.sort(cars, com); // using comaparator interface method sorting in which we have define our own logic for sorting the objects....
         for(Car2 s1 : cars)
         {
             System.out.println(s1);
         }
+
+        System.out.println();
+        System.out.println("-----------After Sorting using compareTo(parameters) method of Comparable Interface---------");
+        System.out.println();
+
+        Collections.sort(cars); //implementing comaparable interface and using this interface and using compareTo() method , we can do sorting in which we have define our own logic for sorting the objects and give the class the power to compare its own objects on its own....
+        for(Car2 s2 : cars)
+        {
+            System.out.println(s2);
+        }
+
+
     }
     
 }
