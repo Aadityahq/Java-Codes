@@ -55,7 +55,7 @@ public class Lec95_2 {
         //     }
         // }; // Using traditional method
 
-        Comparator<Car2> com = (i, j) -> i.price > j.price ? 1 : -1; //Using Arrow Function
+        Comparator<Car2> com = (i, j) -> i.price > j.price ? 1 : -1;  //Using Arrow Function
         
             
 
