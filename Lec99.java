@@ -59,7 +59,8 @@ public class Lec99 {
         Optional<Integer> result = stream3.reduce(add);
         System.out.println("----------");
         System.out.println(result);
-
+        System.out.println();
+        
         System.out.println("---Sorted Stream---");
         Stream<Integer> stream4 = nums.stream();
         Stream<Integer> stream5 = stream4.sorted();
